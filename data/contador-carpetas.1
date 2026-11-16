@@ -1,0 +1,24 @@
+.TH CONTADOR-CARPETAS 1 "2026-11-16" "1.0.0" "User Commands"
+.SH NAME
+contador-carpetas \- count and sort folders recursively
+.SH SYNOPSIS
+.B contador-carpetas
+.RI [ directory ]
+.br
+.B contador-carpetas --version
+.SH DESCRIPTION
+A native GTK 3 application showing immediate subfolders ranked by recursive
+file count, allocated disk space, apparent size or name.
+The interface is in Spanish. Select a directory and press Analizar.
+Click column headings to change the sort order. Detener cancels traversal.
+Double-click a folder to analyze it. Archivo provides CSV export.
+Symbolic links are ignored. Other filesystems are skipped unless enabled
+in Opciones. Hard links count once per directory entry.
+.SH FILES
+.I ~/.config/contador-carpetas/settings.json
+.br
+.I ~/.local/state/contador-carpetas/errors.log
+.br
+XDG_CONFIG_HOME and XDG_STATE_HOME override the corresponding base paths.
+.SH LICENSE
+GNU GPL version 3 or later.

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Contador de Carpetas
+Comment=Ordenar carpetas por cantidad de archivos o tamaño
+Exec=contador-carpetas %f
+Icon=contador-carpetas
+Terminal=false
+Categories=Utility;FileTools;
+StartupNotify=true
+MimeType=inode/directory;
